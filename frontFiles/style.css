@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f8fa;
+    margin: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    background: #1da1f2;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 8px;
+    height: 80px;
+}
+
+.post {
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+}
+
+.logout {
+    background: none;
+    border: none;
+    color: gray;
+    cursor: pointer;
+}
